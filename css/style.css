@@ -1,0 +1,90 @@
+#banner-top{
+    background-image: url('../images/bgr/main_foto.png');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height: 600px;
+}
+
+
+
+.custom_nav .navbar.navbar-fixed-top .navbar-inner{
+    background-color: rgba(01,01,01,0.5);
+}
+
+#nav-menu-top{
+    background-color: rgba(01,01,01,0.5);
+    line-height: 100px;
+    height: 100px;
+}
+
+#call-block{
+    line-height: 100px;
+    height: 100px;
+    color: #fff;
+
+    /*margin-left: 40px;
+    margin-top: 25px;*/
+}
+
+.nav-row{
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.nav-row a{
+    color: #fff;
+}
+
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#buttons-block{
+    margin-top: 200px;
+}
+
+#buttons-block div{
+    display:inline;
+}
+
+
+#buttons-block p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+/*
+#nav-menu-top{
+    background-color: rgba(01,01,01,0.5) !important;
+}
+
+
+ul .nav .nav-pills {
+    background-color: rgba(01,01,01,0.5)
+}
+
+.navbar.navbar-fixed-top {
+    background-color: rgba(01,01,01,0.5)
+}
+.navbar .nav > .active a, .navbar .nav > .active a:hover, .navbar .nav > li a:hover {
+    background-color: rgba(01,01,01,0.5); text-shadow:none;
+}
+
+#nav-menu-top {
+
+}*/
+
+
+
+
+/*
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}*/
