@@ -1,0 +1,23 @@
+/*Desktop-first method*/
+/*large devices wide screen*/
+@media only screen and (max-width: 1200px){
+
+}
+/*Medium devices Desktops*/
+@media only screen and (max-width: 992px){
+
+}
+/*Small devices Tablets*/
+@media only screen and (max-width: 768px){
+.nav-top__item{
+	display: none;
+ }
+}
+/*Extra Small devices Phones*/
+@media only screen and (max-width: 480px){
+
+}
+/*Custom Iphone Retina*/
+@media only screen and (max-width: 320px){
+
+}

@@ -10,105 +10,175 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" href="libs/font-awesome-4.5.0/css/font-awesome.css">
+
     <!-- Optional theme -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="stylesheet" href="js/common.js">
+
+    <link rel="stylesheet" href="libs/slick-1.5.9/slick-1.5.9/slick/slick.min.js">
+
+    <link rel="stylesheet" type="text/css" href="libs/slick-1.5.9/slick-1.5.9/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="libs/slick-1.5.9/slick-1.5.9/slick/slick-theme.css"/>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <title></title>
+
+    <title>Δρυάδες</title>
 </head>
 <body>
+<header class="banner-top">
+    <div class="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 col-md-4 call-order">
+                    <a href="" class="call-order__item call-order__item-call">Закажите бесплатный звонок!</a>
+                    <p class="call-order__item call-order__item-number">8(812)748-14-04</p>
 
-
-<header>
-    <div id="banner-top" class="row">
-
-        <div id="nav-menu-top" class="row">
-            <div id="call-block" class="col-md-3">
-                Закажите бесплатный звонок
-                8(812) 748-14-04
-            </div>
-
-            <div class="col-md-6 text-center">
-                <img src="images/icon/logo.png">
-            </div>
-
-            <div class="col-md-3">
-
-                <div class="row nav-row">
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
                 </div>
-
-                <div class="row nav-row">
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#">О нас</a>
-                    </div>
+                <div class="col-xs-3 col-md-2 logo"><img src="images/icon/logo.png" height="72" width="72" alt=""></div>
+                    
+                <div class="col-xs-6 col-md-4 nav-top pull-right">
+                      <button class="auth-buttons hidden-md hidden-lg"><i class="fa fa-bars"></i></button>  
+                   <div class="row pull-right">
+                       <span class="nav-top__item"><a href="">о нас</a></span>
+                       <span class="nav-top__item"><a href="">проекты</a></span>
+                       <span class="nav-top__item"><a 
+                       href="">услуги</a></span>
+                   </div>
+                   <div class="row pull-right">
+                       <span class="nav-top__item"><a href="">растения</a></span>
+                       <span class="nav-top__item"><a href="">цены</a></span>
+                       <span class="nav-top__item"><a href="">контакты</a></span>
+                   </div> 
                 </div>
-
             </div>
-
         </div>
-
-
-        <div class="row ">
-            <!--<div id="buttons-block" class="text-center" style="float: none; margin: 0 auto;">-->
-            <!--<div id="buttons-block" style="float: none; margin: 0 auto;">-->
-            <div id="buttons-block" class="col-md-6 col-centered text-center form-inline">
-
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="images/icon/proektirovanie.png">
-                            <p>Проектирование</p>
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="images/icon/blagoystroistvo.png">
-                            <p>Благогустройство</p>
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="images/icon/ozelenenie.png">
-                            <p>Озеленение</p>
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#">
-                            <img src="images/icon/yxod.png">
-                            <p>Уход за садом</p>
-                        </a>
-                    </div>
+    </div>
+    <div class="row main-nav">
+        <div class="col-md-6">
+            <div class="main-nav__item pull-right"><img src="images/icon/proektirovanie.png" height="99" width="112" alt=""><br>
+                <span class="main-nav__item-subtitle">проектирование</span>
             </div>
-
-
+            <div class="main-nav__item pull-right"><img src="images/icon/blagoystroistvo.png" alt=""><br>
+                <span class="main-nav__item-subtitle">благоустройство</span>
+            </div>
         </div>
-
-
-
+        <div class="col-md-6">
+            <div class="main-nav__item"><img src="images/icon/ozelenenie.png" alt=""><br>
+                <span class="main-nav__item-subtitle">озеленение</span>
+            </div>
+            <div class="main-nav__item care"><img src="images/icon/yxod.png" alt=""><br>
+                <span class="main-nav__item-subtitle">уход</span>
+            </div>
+        </div>
     </div>
 </header>
+<section class="promo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="slogan">Создаем, преображаем, ухаживаем</h1>
+                <p class="promo-text__promo">Мы студия ландшафтного дизайна<br>основанная в 2007 году в городе Санкт-Петербурге.</p>
+                <p class="promo-text__services">Предоставляем услуги высокого качества по благоустройству,<br>
+                роектированию, озеленению и уходу за вашим садом.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="col-md-4">
+        <img src="images/content/team.png" height="261" width="411" alt="">
+        <a href="">Команда профессионалов</a>
+    </div>
+    <div class="col-md-4">
+        <img src="images/content/vistavki.png" alt="">
+        <a href="">Мы на международных выставках</a>
+    </div>
+    <div class="col-md-4">
+        <img src="images/content/otziv.png" alt="">
+        <a href="">Отзывы о нас</a>
+    </div>
+</section>
+<section class="lake-garden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>Сад с прудом</h1>
+                <p>Полное воплощение проекта под ключ. Строительство искусственного водоема площадью зеркала 300 м2 с зарыблением.Строительство декоративного мостика, освещение, полив, ливневая канализация, посадка растений уход.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="slick-slider">
+                <div><img src="images/bgr/Garden with lake.png" alt=""></div>
+                <div><img src="images/content/foto_gotovie reshenia.png" alt=""></div>
+                <div><img src="images/bgr/Garden with lake.png" alt=""></div>
+              </div>
+            </div>
+            <div class="col-md-1">
+                    <img src="images/content/foto_designer.png" alt=""><br><span>Наталья дизайнер проекта</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ready-solutions">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">text+button</div>
+            <div class="col-md-6">carusel</div>
+        </div>
+    </div>
+</section>
+<section class="garden-bgr">
+    <div class="garden-bgr__bgr"><img src="images/bgr/foto_block 4.png" alt="" width="100%">
+    </div>
+</section>
+<section class="consult">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 consult-promo">Первая консультация и выезд дизайнера бесплатно</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 consult-item consult-item__text">Напишите нам и мы вам перезвоним</div>
+            <div class="col-md-9 consult-item consult-item__input"></div>
+            <div class="col-md-3 consult-item consult-item__button"></div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div class="container">
+        <div class="col-md-4">.contacts-item__map</div>
+        <div class="col-md-4">.contacts-item__photo</div>
+        <div class="col-md-4">.contacts-item__contacts-list</div>
+    </div>
+</section>
+<footer class="bottom">
+    <div class="col-md-3">copyright</div>
+    <div class="col-md-3">social-buttons</div>
+</footer>
 
 
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="libs/slick-1.5.9/slick-1.5.9/slick/slick.js"></script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slick-slider').slick({
+    rtl: true
+  });
+});
+</script>
 
 </body>
 </html>
