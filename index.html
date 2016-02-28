@@ -19,15 +19,14 @@
 
     <link rel="stylesheet" href="css/media.css">
 
-    <link rel="stylesheet" href="js/common.js">
-
-    <link rel="stylesheet" href="libs/slick-1.5.9/slick-1.5.9/slick/slick.min.js">
-
-    <link rel="stylesheet" type="text/css" href="libs/slick-1.5.9/slick-1.5.9/slick/slick.css"/>
-
-    <link rel="stylesheet" type="text/css" href="libs/slick-1.5.9/slick-1.5.9/slick/slick-theme.css"/>
-
+    <script src="js/common.js"></script>
+    
     <script src="bower_components/jquery/dist/jquery.js"></script>
+
+
+    <link  href="libs/fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+    <script src="libs/fotorama-4.6.4/fotorama.js"></script>
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -118,10 +117,15 @@
                 <p>Полное воплощение проекта под ключ. Строительство искусственного водоема площадью зеркала 300 м2 с зарыблением.Строительство декоративного мостика, освещение, полив, ливневая канализация, посадка растений уход.</p>
             </div>
             <div class="col-md-6">
-              <div class="slick-slider">
+<!--<div class="slick-slider">-->
+              <div class="fotorama">
                 <div><img src="images/bgr/Garden with lake.png" alt=""></div>
                 <div><img src="images/content/foto_gotovie reshenia.png" alt=""></div>
                 <div><img src="images/bgr/Garden with lake.png" alt=""></div>
+
+                <!--<h3>1</h3>
+                <h3>2</h3>
+                <h3>3</h3>-->
               </div>
             </div>
             <div class="col-md-1">
@@ -167,16 +171,9 @@
     <div class="col-md-3">social-buttons</div>
 </footer>
 
-
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="libs/slick-1.5.9/slick-1.5.9/slick/slick.js"></script>
-
 <script type="text/javascript">
 $(document).ready(function(){
-  $('.slick-slider').slick({
-    rtl: true
-  });
+     
 });
 </script>
 

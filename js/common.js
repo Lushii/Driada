@@ -1,8 +1,14 @@
+/*
 $(document).ready(function(){
-  $('.slick-slider').slick({
-    setting-name: setting-value
-  });
-});
+  $('.slick-slider').slick();
+
+
+
+
+});*/
+
+
+/*
 $('.single-item').slick();
 $('.one-time').slick({
   dots: true,
@@ -11,4 +17,4 @@ $('.one-time').slick({
   slidesToShow: 1,
   adaptiveHeight: true
 });
-        
+*/    
